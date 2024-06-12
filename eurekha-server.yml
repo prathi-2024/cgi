@@ -1,6 +1,4 @@
-
-spring:
-  application:
-    name: eurekha-server
-  config:
-    import: optional:configserver:http://localhost:8888
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
